@@ -1,0 +1,385 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Philip Wood
+    tagline: DevOps Engineer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: philip.wood@gmail.com
+    phone: +27 72 434 4192
+    website: 
+    linkedin: philipstaffordwood
+    github: philipstaffordwood
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: 1319337/philipstaffordwood # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Afrikaans
+        level: Native
+
+    interests:
+      - item: Climbing
+        link:
+
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I'm a self-motivated, solution-orientated individual with strong communication skills, a passion for design and a strong technical background that is grounded in an understanding of the underlying theory. 
+education:
+    - degree: Computer Science Diploma - Oracle/Java
+      university: CTI
+      time: 2002
+      details: 
+    - degree: Matric
+      university: Hoërskool Andrew Rabie
+      time: 1993
+      details: 
+experiences:
+    - role: Principal DevOps Engineer
+      time: Nov 2018 - Present
+      company: BVNK
+      details: |
+        Principal DevOps Engineer for the Grindrod Bank Bigbaobab team.
+
+        Bigbaobab is a Grindrod Bank initiative to rebuild their Core Banking system using a modern microservice architecture.
+
+        My main role is to build out the DevOps environment and toolchain and to advise on application and platform design and architecture. 
+
+        This includes scripting their Kubernetes platform builds using Terraform and Ansible on AWS, Digital Ocean and on on-prem hardware.
+
+        It also includes the scripting of the provisioning of their CI/CD infrastructure: Jenkins, SonarQube and Artifactory.
+
+        As well as developing CI/CD pipelines to build, test, statically analise, package, publish and deploy their microservice artifacts.
+
+        **Technologies used:** 
+        <div class="tagcloud06">
+          <ul>
+            <li><a href="#"><span>AWS</span></a></li>
+            <li><a href="#"><span>DigitalOcean</span></a></li>
+            <li><a href="#"><span>Kubernetes</span></a></li>
+            <li><a href="#"><span>Docker</span></a></li>
+            <li><a href="#"><span>Docker-Compose</span></a></li>
+            <li><a href="#"><span>Ansible</span></a></li>
+            <li><a href="#"><span>Terraform</span></a></li>
+            <li><a href="#"><span>Libvirt</span></a></li>
+            <li><a href="#"><span>Jenkins</span></a></li>
+            <li><a href="#"><span>Postman/Newman</span></a></li>
+            <li><a href="#"><span>JMeter</span></a></li>
+            <li><a href="#"><span>SonarQube</span></a></li>
+            <li><a href="#"><span>.NET core</span></a></li>
+            <li><a href="#"><span>Java</span></a></li>
+            <li><a href="#"><span>Spring</span></a></li>
+            <li><a href="#"><span>Postgres</span></a></li>
+          </ul>
+        </div>
+    - role: Principal  Developer
+      time: Jul 2018 - Nov 2018
+      company: BCX
+      details: |
+        As member of a velocity team (our brief was: concept to POC, then handover to
+        implementation team to do POC to MVP) I worked on analyzing a legacy codebase of more than
+        15,000,000 lines of Java code to advise on for refactoring approaches. This was done using a collection
+        of open source tools with custom needs met with [JavaParser](http://javaparser.org/) with visualizations
+        done with [D3.js](https://d3js.org/)
+
+        I also implemented a POC point-solution to implement product activation functionality by reusing base
+        Java Elliptic Curve Cryptography primitives for digital signatures to produce human-readable activation
+        codes.
+
+        This role then transitioned into being the lead analyst for the integration part of a large integration project using [WSO2 Enterprise Integrator](https://wso2.com/integration/)
+        
+        **Technologies used:**
+        <div class="tagcloud06">
+          <ul>
+            <li><a href="#"><span>Java</span></a></li>
+            <li><a href="#"><span>D3.js</span></a></li>
+            <li><a href="#"><span>JavaParser</span></a></li>
+            <li><a href="#"><span>WS02 Enterprise Integrator</span></a></li>
+          </ul>
+        </div>        
+    - role: Principal Integration Developer
+      time: Nov 2016 - Jul 2018
+      company: BCX
+      details: |
+        I helped to establish an Enterprise Integration Centre of Excellence while contracted out to the South
+        African Reserve Bank.
+
+        Initialy I led a small four person team to develop all the models and processes and templates to establish the
+        Centre of Excellence: including the _Vision, Mission & Mandate_, the _Target Operating Model_, various
+        _Business Processes_, etc..
+
+        I subsequently served as the demand coordinator, the support lead and finally the ops manager for three
+        integration ops teams administering the key SARB Integration platforms for the CoE.
+        
+        **Technologies used:**
+        <div class="tagcloud06">
+          <ul>
+            <li><a href="#"><span>Bamboo</span></a></li>
+            <li><a href="#"><span>IBM IIB</span></a></li>
+            <li><a href="#"><span>IBM DataPower</span></a></li>
+            <li><a href="#"><span>IBM MQ</span></a></li>
+            <li><a href="#"><span>Oracle SOA Suite</span></a></li>
+          </ul>
+        </div>
+    - role: Principal Integration Developer
+      time: 2014 - Oct 2016
+      company: BCX
+      details: |
+        Integration Standard Bank. Technical analysis of legacy PL SQL and JCaps Java code.
+
+        Development of IBM IIB solutions. Scrum master of delivery teams on Foundation programme and Industrialization Project.
+                
+        **Technologies used:**
+        <div class="tagcloud06">
+          <ul>
+            <li><a href="#"><span>Chef</span></a></li>
+            <li><a href="#"><span>Bamboo</span></a></li>
+            <li><a href="#"><span>Jenkins</span></a></li>
+            <li><a href="#"><span>Gitlab</span></a></li>
+            <li><a href="#"><span>Ant</span></a></li>
+            <li><a href="#"><span>Antlr</span></a></li>
+            <li><a href="#"><span>PL/SQL</span></a></li>
+            <li><a href="#"><span>IBM IIB</span></a></li>
+            <li><a href="#"><span>IBM DataPower</span></a></li>
+            <li><a href="#"><span>IBM MQ</span></a></li>
+          </ul>
+        </div>
+    - role: Senior Integration Developer
+      time: Sep 2012 - Sep 2014
+      company: BCX
+      details: |   
+        Senior Integration developer at Vodacom.
+
+        First as Senior Integration Developer on the EVO project for Vodaphone/Vodacom integrations.
+        Followed up by being a Senior Integration Developer for the Vodacom Business OSS/BSS Fusion integration team. 
+
+        Primary technology Oracle Fusion Middleware using OSB and Oracle SOA suite and some J2EE interfaces.
+        
+        **Technologies used:**
+        <div class="tagcloud06">
+          <ul>
+            <li><a href="#"><span>Jenkins</span></a></li>
+            <li><a href="#"><span>Ant</span></a></li>
+            <li><a href="#"><span>Oracle SOA Suite</span></a></li>
+            <li><a href="#"><span>Oracle Fusion Middleware</span></a></li>
+            <li><a href="#"><span>Oracle Weblogic</span></a></li>
+            <li><a href="#"><span>JMS</span></a></li>
+          </ul>
+        </div>
+
+    - role: Senior Consultant
+      time: Nov 2007 - Sep 2012
+      company: EOH
+      details: |   
+        Senior Consultant for EOH Project & Portfolio Management (formerly Gallium Professional Services).
+
+        Team lead for the HP PPM technical support team at Absa.
+
+        Tasks and responsibilities included:
+        * The design and implementation of changes to the deployed Absa HP PPM Solution.
+        * Advising the client to possible technology-based HP PPM solutions to business process, governance and organisational challenges.
+        * Providing and managing second-line support by the technical team to the Absa support teams.
+        * Coordinating technical activities between the HP PPM support, Oracle, Domain operations and Change Management teams.
+        Notable achievements include having led the design and implementation of a HP PPM based solution for Absa Group Change focusing on their BCL (Business Change Lifecycle). This solution expanded the user base of HP PPM within the client by adding an extra solution area while reusing their existing technology investment.
+        Technical achievements during this time include
+        * The development of a POC Integration between HP PPM 7.1 and HP Openview Service Desk 4.5 for the Test Factory at Vodacom Business Services Group.
+        * The implementation of an integration between HP PPM 7.1 and HP QC 9.0 for Vodacom Engineering.
+        * Forming part of project team for HP PPM Upgrade to HP PPM 7.1 for Vodacom Engineering.
+        * Assisting with HP QC 9.0 to HP QC 9.1 Upgrade for Test Factory at Vodacom Engineering.
+        * Forming part of process re-engineering team for Vodacom Engineering.
+        * Assisting with Enterprise Discovery Automated Discovery Agents Configuration on Unix/Linux platforms for Exclusive Books.
+        * Forming part of project team at Absa for the Barclays Navigator project, specializing in interfaces, HP PPM SOA functionality, and report and portlet customization.
+        * Forming part of the technical support team for the Barclays HP PPM implementation.
+        * Being the technical team-lead for an upgrade of HP PPM from 7.5 to 9.1.
+
+        **Technologies used:**
+        <div class="tagcloud06">
+          <ul>
+            <li><a href="#"><span>VMWare</span></a></li>
+            <li><a href="#"><span>HP PPM</span></a></li>
+            <li><a href="#"><span>Documentum</span></a></li>
+            <li><a href="#"><span>Oracle DB</span></a></li>
+            <li><a href="#"><span>Oracle SQL</span></a></li>
+            <li><a href="#"><span>Windows Server</span></a></li>
+            <li><a href="#"><span>JBoss</span></a></li>
+            <li><a href="#"><span>J2EE</span></a></li>
+            <li><a href="#"><span>Google App Engine</span></a></li>
+            <li><a href="#"><span>Windows Server</span></a></li>
+            <li><a href="#"><span>Cygwin</span></a></li>
+          </ul>
+        </div>
+    - role: Message Architect
+      time: Jul 2007 - Oct 2007
+      company: Business Connexion
+      details: |   
+        Message Architect for Eskom BASC Integration Competency Centre. 
+
+        Tasks and responsibilities included: Analysis of integration solution requirements in terms of messaging, focusing on high level interface design, message designs, message mappings and the integration of solutions into the Eskom Common Information Model.
+
+        Primary responsibilities were message design, and management of the submission, review and approval process for integration designs, ensuring the compliance to Eskom architectural governance and standards.
+
+        The performance of the above tasks and responsibilities included constant interaction and communication with Eskom IS Architecture, divisional architecture representatives as well representatives from many projects, interacting at all levels ranging from technical to business.
+
+        Technical competencies used in this role included expertise in the full range of XML-based technologies, with a good understanding of database representations and technologies as well as the understanding of SOA and the range of technologies supporting it.
+
+        **Technologies used:**
+        <div class="tagcloud06">
+          <ul>
+            <li><a href="#"><span>XML</span></a></li>
+            <li><a href="#"><span>XSD</span></a></li>
+            <li><a href="#"><span>ERD</span></a></li>
+          </ul>
+        </div>
+    - role: Integration Specialist
+      time: Oct 2005 - Jun 2007
+      company: SiloFX
+      details: | 
+        Integration Specialist primarily using Seebeyond ICAN and Sun CAPS in the Eskom IS environment.  
+
+        **Technologies used:**
+        <div class="tagcloud06">
+          <ul>
+            <li><a href="#"><span>Sun Java CAPS</span></a></li>
+          </ul>
+        </div>
+    - role: Project Manager
+      time: May 2005 - Sep 2005
+      company: SiloFX
+      details: |      
+        Project Manager for the Cordaptix Ukukala Project at Eskom.
+
+        Ukukala was the implementation of an Eskom Distribution-wide Data Warehouse. The Cordaptix Ukukala sub-project was mainly involved in the specification of Key Performance Indicator business logic to enable the development of KPI extraction, calculation and verification solutions from the Cordaptix system (currently CC&B).
+
+        Tasks and responsibilities included the management of a team tasked with the production of KPI definitions. Definitions included aspects of Business Analysis of the KPIs, but consisted mostly of Systems Analysis of the KPIs and their implementation as SQL scripts to express their Business Logic. Testing and optimization of the scripts was a key task as the Cordaptix Customer Care and Billing system database was a multi-terabyte database with very high transaction volumes and many multi-million row tables.
+
+        The definitions needed to effectively document and clearly define the aspects of the Cordaptix Data Model being used.
+
+        The management tasks included the management of the definition document approval process and sign-off by Business and Technical Subject Matter Experts as well as technical advice to Ukukala regarding the technical extract process. The resolution of technical extract problems required a high level of communication to clarify requirements and identify and resolve technical problems.
+
+        The business requirements for the KPIs had to be confirmed, clarified and often corrected with business representatives. The technical requirements had to be confirmed, clarified and corrected with data warehouse as well as production system SMEs and technical issues had to be solved in an effective manner.   
+        
+        **Technologies used:**
+        <div class="tagcloud06">
+          <ul>
+            <li><a href="#"><span>Solaris</span></a></li>
+            <li><a href="#"><span>Oracle DB</span></a></li>
+            <li><a href="#"><span>Oracle SQL</span></a></li>
+          </ul>
+        </div>
+
+    - role: Systems Analyst
+      time: Jun 2004 - Apr 2005
+      company: SiloFX
+      details: |  
+        Systems Analyst for an Eskom 7 to 6 reorganisation project. Tasks included involvement in the design of message architectures, the design of business and technical processes and technical process implementations using SeeBeyond ICAN. SeeBeyond eInsight was used to prototype proposed integration solutions to effect a change of Eskom systems from a seven region model to a six region model to align with regulatory changes. 
+    - role: Software Developer
+      time: Nov 2002 - Jun 2004
+      company: SiloFX
+      details: |   
+        Software Developer involved in the architecture, design, coding, debugging and testing of a SiloFX Enterprise applications called Synap-C SAE (software architecture engine) and Synap-C EA (enterprise architecture). 
+
+        Main role during as developer was the research, analysis and design and implementation of ontological storage systems.
+        Database technologies used were primarily Microsoft SQL Server with C# being the primary development language.
+        A full UML based design methodology with strong focus on documentation and testing was followed.
+
+        **Technologies used:**
+        <div class="tagcloud06">
+          <ul>
+            <li><a href="#"><span>c#</span></a></li>
+            <li><a href="#"><span>Microsoft SQL Server</span></a></li>
+            <li><a href="#"><span>UML</span></a></li>
+            <li><a href="#"><span>Go Diagram .NET</span></a></li>
+          </ul>
+        </div>
+
+projects:
+    title: Projects
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Kubernetes
+        level: 90%
+
+      - name: Docker-compose
+        level: 90%
+
+      - name: Docker
+        level: 90%
+
+      - name: Terraform
+        level: 80%
+
+      - name: Ansible
+        level: 70%
+
+      - name: Chef
+        level: 80%
+
+      - name: Java
+        level: 80%
+
+footer: >
+    Template Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
