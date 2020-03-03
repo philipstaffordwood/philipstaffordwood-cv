@@ -1,9 +1,9 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: My CV
+title: Philip Wood - Professional CV
 url: 'https://philipstaffordwood.github.io'
-baseurl: '/philipstaffordwood-cv2' #change it according to your repository name
+baseurl: '/philipstaffordwood-cv' #change it according to your repository name
 description: Professional CV for Philip Wood
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: blue # blue turquoise green berry orange ceramic
