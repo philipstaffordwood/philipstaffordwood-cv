@@ -56,17 +56,17 @@ experiences:
       time: Nov 2018 - Present
       company: BVNK
       details: |
-        Principal DevOps Engineer for the Grindrod Bank Bigbaobab team.
+        Principal DevOps Engineer for BVNK serving mostly on the Grindrod Bank Bigbaobab team.
 
-        Bigbaobab is a Grindrod Bank initiative to rebuild their Core Banking system using a modern microservice architecture.
+        Bigbaobab was a Grindrod Bank initiative to rebuild their Core Banking system using a modern microservice architecture.
 
-        My main role is to build out the DevOps environment and toolchain and to advise on application and platform design and architecture. 
+        My main role was to build out the DevOps environment and toolchain and to advise on application and platform design and architecture. 
 
-        This includes scripting their Kubernetes platform builds using Terraform and Ansible on AWS, Digital Ocean and on on-prem hardware.
+        This included scripting their Kubernetes platform builds using Terraform and Ansible on AWS, Digital Ocean and on on-prem hardware.
 
-        It also includes the scripting of the provisioning of their CI/CD infrastructure: Jenkins, SonarQube and Artifactory.
-
-        As well as developing CI/CD pipelines to build, test, statically analise, package, publish and deploy their microservice artifacts.
+        It also included the scripting of the provisioning of their CI/CD infrastructure: Jenkins, SonarQube and Artifactory, as well as developing CI/CD pipelines to build, test, statically analise, package, publish and deploy their microservice artifacts.
+        
+        For BVNK in-house needs I helped automate and build our demo instance Kubernetes infrastructure on a low cost Hetzner box.
 
         **Technologies used:** 
         <div class="tagcloud06">
