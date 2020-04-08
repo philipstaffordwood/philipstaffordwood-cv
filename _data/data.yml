@@ -114,6 +114,7 @@ experiences:
             <li><a href="#"><span>WS02 Enterprise Integrator</span></a></li>
           </ul>
         </div>        
+        <p style="page-break-after: always;">
     - role: Principal Integration Developer
       time: Nov 2016 - Jul 2018
       company: BCX
@@ -121,7 +122,7 @@ experiences:
         I helped to establish an Enterprise Integration Centre of Excellence while contracted out to the South
         African Reserve Bank.
 
-        Initialy I led a small four person team to develop all the models and processes and templates to establish the
+        Initially I led a small four person team to develop all the models and processes and templates to establish the
         Centre of Excellence: including the _Vision, Mission & Mandate_, the _Target Operating Model_, various
         _Business Processes_, etc..
 
@@ -224,8 +225,10 @@ experiences:
         * Advising the client to possible technology-based HP PPM solutions to business process, governance and organisational challenges.
         * Providing and managing second-line support by the technical team to the Absa support teams.
         * Coordinating technical activities between the HP PPM support, Oracle, Domain operations and Change Management teams.
+
         Notable achievements include having led the design and implementation of a HP PPM based solution for Absa Group Change focusing on their BCL (Business Change Lifecycle). This solution expanded the user base of HP PPM within the client by adding an extra solution area while reusing their existing technology investment.
-        Technical achievements during this time include
+
+        Technical achievements during this time include:
         * The development of a POC Integration between HP PPM 7.1 and HP Openview Service Desk 4.5 for the Test Factory at Vodacom Business Services Group.
         * The implementation of an integration between HP PPM 7.1 and HP QC 9.0 for Vodacom Engineering.
         * Forming part of project team for HP PPM Upgrade to HP PPM 7.1 for Vodacom Engineering.
@@ -252,6 +255,7 @@ experiences:
             <li><a href="#"><span>Cygwin</span></a></li>
           </ul>
         </div>
+        <p style="page-break-after: always;">
     - role: Message Architect
       time: Jul 2007 - Oct 2007
       company: Business Connexion
@@ -310,6 +314,7 @@ experiences:
             <li><a href="#"><span>Oracle SQL</span></a></li>
           </ul>
         </div>
+        <p style="page-break-after: always;">
 
     - role: Systems Analyst
       time: Jun 2004 - Apr 2005
@@ -411,4 +416,3 @@ skills:
         level: 80%
 
 footer: >
-    Template Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
