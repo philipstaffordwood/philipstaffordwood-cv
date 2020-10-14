@@ -52,8 +52,13 @@ education:
       time: 1993
       details: 
 experiences:
+    - role: DevOps Engineer
+      time: Sept 2020 - Present
+      company: Dotcom Software Solutions
+      details: |
+        Devops engineer stationed primarily at Ayo (http://ayo4u.com/)
     - role: Principal DevOps Engineer
-      time: Nov 2018 - Present
+      time: Nov 2018 - Aug 2020
       company: BVNK
       details: |
         Principal DevOps Engineer for BVNK serving mostly on the Grindrod Bank Bigbaobab team.
