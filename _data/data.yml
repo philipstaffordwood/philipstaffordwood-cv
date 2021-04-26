@@ -52,11 +52,39 @@ education:
       time: 1993
       details: 
 experiences:
+    - role: Solution Architect
+      time: Mar 2021 - Present
+      company: Dotcom Software Solutions
+      details: |
+        Solution Architect and team lead for a four person team implementing a MVP Insurance platform for a Fintech startup.
+         **Technologies used:** 
+        <div class="tagcloud06">
+          <ul>
+            <li><a href="#"><span>AWS Amplify</span></a></li>
+            <li><a href="#"><span>AWS Lambda</span></a></li>
+            <li><a href="#"><span>AWS API Gateway</span></a></li>
+            <li><a href="#"><span>Node</span></a></li>
+            <li><a href="#"><span>React</span></a></li>
+            <li><a href="#"><span>Tailwind CSS</span></a></li>
+            <li><a href="#"><span>Storybook.js</span></a></li>
+          </ul>
+        </div>
     - role: DevOps Engineer
-      time: Sept 2020 - Present
+      time: Sept 2020 - Feb 2021 
       company: Dotcom Software Solutions
       details: |
         Devops engineer stationed primarily at Ayo (http://ayo4u.com/)
+        **Technologies used:** 
+        <div class="tagcloud06">
+          <ul>
+            <li><a href="#"><span>Jenkins</span></a></li>
+            <li><a href="#"><span>Terraform</span></a></li>
+            <li><a href="#"><span>Azure</span></a></li>
+            <li><a href="#"><span>Azure AKS</span></a></li>
+            <li><a href="#"><span>Kubernetes</span></a></li>
+            <li><a href="#"><span>Robot Framework</span></a></li>
+          </ul>
+        </div>
     - role: Principal DevOps Engineer
       time: Nov 2018 - Aug 2020
       company: BVNK
