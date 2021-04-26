@@ -54,9 +54,10 @@ education:
 experiences:
     - role: Solution Architect
       time: Mar 2021 - Present
-      company: Dotcom Software Solutions
+      company: IdealSolution Software
       details: |
         Solution Architect and team lead for a four person team implementing a MVP Insurance platform for a Fintech startup.
+        
          **Technologies used:** 
         <div class="tagcloud06">
           <ul>
@@ -74,6 +75,7 @@ experiences:
       company: Dotcom Software Solutions
       details: |
         Devops engineer stationed primarily at Ayo (http://ayo4u.com/)
+        
         **Technologies used:** 
         <div class="tagcloud06">
           <ul>
