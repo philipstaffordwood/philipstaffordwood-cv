@@ -53,7 +53,25 @@ education:
       details: 
 experiences:
     - role: Solution Architect
-      time: Mar 2021 - Present
+      time: Oct 2022 - Present
+      company: IdealSolution Software
+      details: |
+        Principal Developer and Secondary Lead on a eight person team implementing a payment gateway for Transaction Junction.
+
+        I did the analysis, design and implementation of the credit/debit card payment method backend and then built out the 
+        "save my card" features onto the g
+        
+         **Technologies used:** 
+        <div class="tagcloud06">
+          <ul>
+            <li><a href="#"><span>AWS ECS</span></a></li>
+            <li><a href="#"><span>AWS API Gateway</span></a></li>
+            <li><a href="#"><span>Spring Boot</span></a></li>
+            <li><a href="#"><span>React</span></a></li>
+          </ul>
+        </div>
+    - role: Solution Architect
+      time: Mar 2021 - Oct 2022
       company: IdealSolution Software
       details: |
         Solution Architect and team lead for a four person team implementing a MVP Insurance platform for a Fintech startup.
