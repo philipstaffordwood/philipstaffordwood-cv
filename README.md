@@ -23,7 +23,7 @@ cd philipstaffordwood-cv
 Run a local Jekyll docker instance:
 
 ```bash
-docker run --rm   --volume="$PWD:/srv/jekyll" -p 4000:4000  -it jekyll/jekyll:$JEKYLL_VERSION   jekyll serve
+docker run --rm   --volume="$PWD:/srv/jekyll" -p 4000:4000  -it jekyll/jekyll:latest   jekyll serve
 ```
 Preview available locally at [`http://localhost:4000/philipstaffordwood-cv/index.html`](http://localhost:4000/philipstaffordwood-cv/index.html)
 
