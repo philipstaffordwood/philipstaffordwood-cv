@@ -16,7 +16,8 @@ Based on Orbit (with customisations)
 Clone repo:
 
 ```bash
-git@github.com:philipstaffordwood/philipstaffordwood-cv.git
+git clone git@github.com:philipstaffordwood/philipstaffordwood-cv.git
+cd philipstaffordwood-cv
 ```
 
 Run a local Jekyll docker instance:
