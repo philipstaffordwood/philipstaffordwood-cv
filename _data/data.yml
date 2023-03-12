@@ -522,7 +522,7 @@ experiences:
            <li><a href="#"><span>JMS</span></a></li>
          </ul>
        </div>
-
+       <p style="page-break-after: always;">
 
    - role: Senior Consultant
      time: Nov 2007 - Sep 2012
@@ -644,7 +644,7 @@ experiences:
            <li><a href="#"><span>Oracle SQL</span></a></li>
          </ul>
        </div>
-       <p style="page-break-after: always;">
+
 
 
    - role: Systems Analyst
