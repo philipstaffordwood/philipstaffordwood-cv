@@ -7,16 +7,18 @@
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
+    skills: False
+    projects: True
 
     # Profile information
     name: Philip Wood
     tagline: DevOps Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
+    # Sidebar linksGolang
     email: philip.wood@gmail.com
     phone: +27 72 434 4192
-    website: 
+    website: http://www.philipstaffordwood.me/
     linkedin: philipstaffordwood
     github: philipstaffordwood
     gitlab:
@@ -53,52 +55,221 @@ education:
       details: 
 experiences:
     - role: Solution Architect
-      time: Oct 2022 - Present
+      time: May 2022 - Present
       company: IdealSolution Software
       details: |
-        Principal Developer and Secondary Lead on a eight person team implementing a payment gateway for Transaction Junction.
+        Principal Developer and Secondary Lead on a eight person team 
+        implementing a payment gateway for 
+        [Transaction Junction](https://transactionjunction.co.za/).
 
-        I did the analysis, design and implementation of the credit/debit card payment method backend and then built out the 
-        "save my card" features onto the g
+        I did the analysis, design and implementation of the credit/debit card payment method backend 
+        and then built out the _recurring and subscription payment_ and
+        _saved card processing_ features for front- and backend. Implementations are done
+        as Spring Boot microservices hosted on AWS ECS in fargate containers. Front ends
+        are implemented in Javascript using React.
+
+        I'm currently designing and implementing the Ozow payment method front end and back end.
+
+        I serve as a second in command and hot standby for the Delivery Lead.
+        
+        I guided, mentored and assisted junior/intermediate/fellow developers with e.g.:
+        
+        * implementing a PHP WooCommerce Payment Gateway Plugin,
+        * refactoring Cypress end-to-end tests,
+        * understanding effective Spring unit test mocking,
+        * designing a Spring API response caching subsystem for slowly changing data,
+        * structuring payment method designs and delivery approaches,
+        * etc.
         
          **Technologies used:** 
         <div class="tagcloud06">
           <ul>
-            <li><a href="#"><span>AWS ECS</span></a></li>
-            <li><a href="#"><span>AWS API Gateway</span></a></li>
+            <li><a href="#"><span>Java</span></a></li>
+            <li><a href="#"><span>Javascript</span></a></li>
             <li><a href="#"><span>Spring Boot</span></a></li>
             <li><a href="#"><span>React</span></a></li>
+            <li><a href="#"><span>AWS ECS</span></a></li>
+            <li><a href="#"><span>AWS API Gateway</span></a></li>
+            <li><a href="#"><span>Bitbucket</span></a></li>
+            <li><a href="#"><span>Jenkins</span></a></li>
+            <li><a href="#"><span>Cypress</span></a></li>
           </ul>
         </div>
     - role: Solution Architect
-      time: Mar 2021 - Oct 2022
+      time: May 2022 - October 2022 (overlapping with TJ deployent)
       company: IdealSolution Software
       details: |
-        Solution Architect and team lead for a four person team implementing a MVP Insurance platform for a Fintech startup.
+        Solution Architect on a five person team overseeing the delivery, 
+        design and implementation of a rewrite of Mobile applications for 
+        [Lighthouse](https://www.getlighthouse.app/) - a content moderation startup. 
+        
+        I was partially allocated to the project at 20h a month.
+
+        My main duties were the initial project planning and scoping, contract and specification negotiations, delivery oversight, 
+        coordinating and presenting client sprint demos, sprint reporting,
+        performing code reviews, giving design assistance, troubleshooting and backend enhancements and fixes.
+
+        When the Android client libraries for the Strongswan VPN being used by the solution turned our not to be viable in context of the solution,
+        I did a quick POC that used Wireguard as an alternative and then rearchitected the solution to use Wireguard instead.
+        Afterwards I implemented the Android Wireguard client code.
+
+        I implemented a small VPN connectivity checking point solution that pings connected devices using
+        a small Golang service hosted on the VPN server and a Javascript AWS lambda function.
+
+        I guided, mentored and assisted my intermediate mobile developer with e.g.:
+        * Android application architecture and design, especially w.r.t. state management,
+        * payment and billing system design,
+        * implementing Javascript lambda functions for periodic billing functions,
+        * etc.
+        
+        I guided, mentored and assisted my testing specialist with e.g.:
+        * Appium coding approaches,
+        * effectively formulating, formatting and presenting his test reporting.
         
          **Technologies used:** 
         <div class="tagcloud06">
           <ul>
+            <li><a href="#"><span>Java</span></a></li>
+            <li><a href="#"><span>Javascript</span></a></li>
+            <li><a href="#"><span>Golang</span></a></li>
+            <li><a href="#"><span>AWS Lambda</span></a></li>
+            <li><a href="#"><span>AWS ECS</span></a></li>
+            <li><a href="#"><span>AWS SQS</span></a></li>
+            <li><a href="#"><span>Wireguard</span></a></li>
+            <li><a href="#"><span>Android (Java)</span></a></li>
+            <li><a href="#"><span>iOS (Swift)</span></a></li>
+            <li><a href="#"><span>Appium</span></a></li>
+            <li><a href="#"><span>App Center</span></a></li>          
+          </ul>
+        </div>
+    - role: Solution Architect
+      time: June 2021 - April 2022
+      company: IdealSolution Software
+      details: |
+        Solution Architect and team lead for a seven person team implementing 
+        a new content moderation solution for [Lighthouse](https://www.getlighthouse.app/).
+
+        My main duties were: solution architecture and design, delivering solution components,
+        initial project planning and scoping, contract and specification negotiations, 
+        delivery oversight, coordinating and presenting client sprint demos, sprint reporting,
+        performing code reviews, giving design assistance, troubleshooting and backend enhancements and fixes.
+
+        We were initially contracted to develop a new content moderation system for schools that intercepts and filters 
+        web traffic for images and videos and then moderates them using machine learning - blocking images classified as harmful, 
+        but this quickly expanded into helping them solve several issues with the go-live of their first mobile content moderation system.
+
+        I architected their school solution - personally delivering the on-school-prem proxy components and overseeing the delivery
+        of the cloud-based management portal and AWS lambda-based back-end functions.
+
+        I implemented the HTTPS-intercepting transparent proxy in Python as a MITMProxy plugin. This was a reimplementation
+        of their first Javascript MVP proxy - adding the capacity to transparently filter devices that could not have their proxy settings
+        remotely managed and I migrated their classification engine from a poorly performing, in-house trained, MachineBox model
+        to [AWS Rekognition](https://aws.amazon.com/rekognition/).
+
+        Their MVP mobile apps were implemented in Flutter and several core libraries were being deprecated. I reimplimented the
+        Flutter app iOS specific networking code in Swift to cope with some of these challenges.
+
+        When the Lighthouse DevOps resource resigned I stoGolangod in for him as far as possible in maintaining their AWS assets until a 
+        DevOps resource could be provisioned.
+        
+         **Technologies used:** 
+        <div class="tagcloud06">
+          <ul>
+            <li><a href="#"><span>Python</span></a></li>
+            <li><a href="#"><span>Swift</span></a></li>
+            <li><a href="#"><span>Java</span></a></li>
+            <li><a href="#"><span>MITMProxy</span></a></li>
+            <li><a href="#"><span>AWS Rekognition</span></a></li>
+            <li><a href="#"><span>AWS ECS</span></a></li>
+            <li><a href="#"><span>AWS Lambda</span></a></li>
+            <li><a href="#"><span>AWS API Gateway</span></a></li>
+            <li><a href="#"><span>React</span></a></li>
+            <li><a href="#"><span>Terraform</span></a></li>
+            <li><a href="#"><span>Bitbucket</span></a></li>
+          </ul>
+        </div>
+    - role: Solution Architect
+      time: January 2022 - February 2022 (overlapping with Lighthouse assignment)
+      company: IdealSolution Software
+      details: |
+        Formed part of a task team with [Quantum change](https://www.quantumchange.africa/) to assess 
+        the Mexico and Columbia Business and Systems for [Bayport](https://www.bayport.co.za/).
+
+        This entailed performing a review of the architecture and roadmaps, teams and processes, codebases and infrastructure of the two
+        organisation and packaging the findings and reccomendations into sections of the final executive report.
+        
+         **Technologies used:** 
+        <div class="tagcloud06">
+          <ul>
+            <li><a href="#"><span>Phpmetrics</span></a></li>
+          </ul>
+        </div>
+
+    - role: Solution Architect
+      time: Mar 2021 - June 2021
+      company: IdealSolution Software
+      details: |
+        Solution Architect and team lead for a four person team implementing a MVP Insurance platform for a Fintech startup: [Instasure](https://instasure.co.za/).
+        
+        My main duties were: solution architecture and design, delivering solution components,
+        initial project planning and scoping, contract and specification negotiations, 
+        delivery oversight, coordinating and presenting client sprint demos, sprint reporting,
+        performing code reviews, giving design assistance, troubleshooting and backend enhancements and fixes.
+
+        The design was a serverless architecture using AWS Amplify. Back-end functions
+        were implemented in Javascript.
+
+        I implemented the bulk of the back-end services and third-party integrations and oversaw front-end delivery and testing.
+        Back-ends were implemented using Javascript AWS lambdas.
+        
+        I also implemented a few minor front-end features using Javascript in React.
+
+         **Technologies used:** 
+        <div class="tagcloud06">
+          <ul>
+            <li><a href="#"><span>Javascript</span></a></li>
             <li><a href="#"><span>AWS Amplify</span></a></li>
             <li><a href="#"><span>AWS Lambda</span></a></li>
             <li><a href="#"><span>AWS API Gateway</span></a></li>
+            <li><a href="#"><span>Javascript</span></a></li>
             <li><a href="#"><span>Node</span></a></li>
             <li><a href="#"><span>React</span></a></li>
             <li><a href="#"><span>Tailwind CSS</span></a></li>
             <li><a href="#"><span>Storybook.js</span></a></li>
+            <li><a href="#"><span>Bitbucket</span></a></li>
           </ul>
         </div>
-    - role: DevOps Engineer
+    - role: Principal DevOps Engineer
       time: Sept 2020 - Feb 2021 
       company: Dotcom Software Solutions
       details: |
-        Devops engineer stationed primarily at Ayo (http://ayo4u.com/)
+        Principal Devops Engineer stationed primarily at [Ayo](http://ayo4u.com/).
+
+        DevOps team member on a six person devops team.
+
+        Roles and responsibilities included:
+        * developing Jenkins build, test and deployment pipelines,
+        * assisting developers with build, test and deployment issues,
+        * production deployments to on-prem and Azure AKS Kubernetes clusters,
+        * provisioning infrastructure using terraform (e.g. Ivory Coast Azure AKS Kubernetes Cluster),
+        * Azure administration and support,
+        * etc.
+
+        I specifically rolled out their first takeon of Keycloak and assited the developers with configuration and styling
+        and helped them to get their Keycloak client code working by providing initial POC code.
+
+        I initiated a cost control exercise to control exorbitant Azure spending. This was done by writing a small Golang Azure API client application
+        that gathered and collated cost information across all Azure assets. I then used a simple R project to display the
+        resultant data as Treemaps. In the first month we found a +-$10,000 cost line item that resulted from a logging misconfiguration.
+
         
         **Technologies used:** 
         <div class="tagcloud06">
           <ul>
-            <li><a href="#"><span>Jenkins</span></a></li>
+            <li><a href="#"><span>Golang</span></a></li>
+            <li><a href="#"><span>Azure SDK for Golang</span></a></li>
             <li><a href="#"><span>Terraform</span></a></li>
+            <li><a href="#"><span>Helm</span></a></li>
             <li><a href="#"><span>Azure</span></a></li>
             <li><a href="#"><span>Azure AKS</span></a></li>
             <li><a href="#"><span>Kubernetes</span></a></li>
@@ -109,7 +280,7 @@ experiences:
       time: Nov 2018 - Aug 2020
       company: BVNK
       details: |
-        Principal DevOps Engineer for BVNK serving mostly on the Grindrod Bank Bigbaobab team.
+        Principal DevOps Engineer on the Grindrod Bank Bigbaobab team.
 
         Bigbaobab was a Grindrod Bank initiative to rebuild their Core Banking system using a modern microservice architecture.
 
@@ -117,7 +288,8 @@ experiences:
 
         This included scripting their Kubernetes platform builds using Terraform and Ansible on AWS, Digital Ocean and on on-prem hardware.
 
-        It also included the scripting of the provisioning of their CI/CD infrastructure: Jenkins, SonarQube and Artifactory, as well as developing CI/CD pipelines to build, test, statically analise, package, publish and deploy their microservice artifacts.
+        It also included the scripting of the provisioning of their CI/CD infrastructure: Jenkins, SonarQube and Artifactory, 
+        as well as developing CI/CD pipelines to build, test, statically analize, package, publish and deploy their microservice artifacts.
         
         For BVNK in-house needs I helped automate and build our demo instance Kubernetes infrastructure on a low cost Hetzner box.
 
@@ -140,23 +312,44 @@ experiences:
             <li><a href="#"><span>Java</span></a></li>
             <li><a href="#"><span>Spring</span></a></li>
             <li><a href="#"><span>Postgres</span></a></li>
+            <li><a href="#"><span>Github</span></a></li>
           </ul>
         </div>
-    - role: Principal  Developer
+    - role: Part-time SRE Developer
+      time: Mar 2020 - Aug 2020
+      company: Flanksource (Overlapping with BVNK duration)
+      details: |
+        Part-time SRE Developer developing Golang automation tools to provision, monitor and configure VMWare-hosted Kubernetes clusters.
+
+        
+        **Technologies used:** 
+        <div class="tagcloud06">
+          <ul>
+            <li><a href="#"><span>Golang</span></a></li>
+            <li><a href="#"><span>Github Actions</span></a></li>
+            <li><a href="#"><span>Github Applications</span></a></li>
+            <li><a href="#"><span>Github</span></a></li>
+            <li><a href="#"><span>govmovi VMWare Golang API</span></a></li>
+
+          </ul>
+        </div>
+
+    - role: Principal Developer
       time: Jul 2018 - Nov 2018
       company: BCX
       details: |
         As member of a velocity team (our brief was: concept to POC, then handover to
         implementation team to do POC to MVP) I worked on analyzing a legacy codebase of more than
-        15,000,000 lines of Java code to advise on for refactoring approaches. This was done using a collection
-        of open source tools with custom needs met with [JavaParser](http://javaparser.org/) with visualizations
+        15,000,000 lines of Java code to advise on refactoring approaches. This was done using a collection
+        of open source tools with custom requirements implemented using [JavaParser](http://javaparser.org/) with visualizations
         done with [D3.js](https://d3js.org/)
 
         I also implemented a POC point-solution to implement product activation functionality by reusing base
         Java Elliptic Curve Cryptography primitives for digital signatures to produce human-readable activation
         codes.
 
-        This role then transitioned into being the lead analyst for the integration part of a large integration project using [WSO2 Enterprise Integrator](https://wso2.com/integration/)
+        This role then transitioned into being the lead analyst for the integration part 
+        of a large integration project using [WSO2 Enterprise Integrator](https://wso2.com/integration/)
         
         **Technologies used:**
         <div class="tagcloud06">
@@ -185,7 +378,8 @@ experiences:
         As Ops Manager I led:
 
         * a two-person Oracle SOA Suite team maintaining the integration infrastructure connecting their core banking applications with external systems,
-        * a four-person IBM IIB, IBM MQ and IBM DataPower team maintaining the integration infrastructure connecting externally with SABN and BankServe as well as non-core bank systems, and
+        * a four-person IBM IIB, IBM MQ and IBM DataPower team maintaining the integration infrastructure connecting externally with 
+          South African Bank Note and BankServe as well as non-core bank systems, and
         * a three-person team maintaining file-transfer infrastructure.
         
         **Technologies used:**
@@ -208,7 +402,8 @@ experiences:
         
         Development of an AIX Environment Provisioning CI Pipeline MVP.
 
-        I joined the Industrialization project at Standard Bank in October 2014. Starting as integration developer I transitioned to being the SCRUM master and tech specialist.
+        I joined the Industrialization project at Standard Bank in October 2014. 
+        Starting as integration developer I transitioned to being the SCRUM master and tech specialist.
 
         Industrialization was an agile project to see how much of the local Max and realtime JavaCAPS interfaces could be redeveloped using a like-for-like replacement approach before a May 2015 deadline. Lacking access to a development environment, one was built using Innovation Centre VMs. A streamlined wiki-based documentation approach was developed after two iterations that factored the designs and documentation into reusable parts allowing very quick documentation generation. A solution architecture was developed with reusable common services that allowed full interface solutions to be implemented using database configurations and required only the actual mapping logic of an interface to be coded.
 
@@ -224,7 +419,8 @@ experiences:
 
         Bamboo initially served as CI server, later to be replaced by Jenkins and GitLab.
 
-        The MVP was completed in November 2015 and demoed executively February 2016, but various social and organisational factors including prohibitive licensing costs have prevented solution adoption within the bank. 
+        The MVP was completed in November 2015 and demoed executively February 2016, 
+        but various social and organisational factors including prohibitive licensing costs prevented solution adoption within the bank. 
         
         **Technologies used:**
         <div class="tagcloud06">
@@ -236,7 +432,7 @@ experiences:
             <li><a href="#"><span>Ant</span></a></li>
             <li><a href="#"><span>Antlr</span></a></li>
             <li><a href="#"><span>PL/SQL</span></a></li>
-            <li><a href="#"><span>CucumberL</span></a></li>
+            <li><a href="#"><span>Cucumber</span></a></li>
             <li><a href="#"><span>IBM IIB</span></a></li>
             <li><a href="#"><span>IBM DataPower</span></a></li>
             <li><a href="#"><span>IBM MQ</span></a></li>
@@ -248,10 +444,12 @@ experiences:
       details: |   
         Senior Integration developer at Vodacom.
 
-        First as Senior Integration Developer on the EVO project for Vodaphone/Vodacom integrations.
-        Followed up by being a Senior Integration Developer for the Vodacom Business OSS/BSS Fusion integration team. 
+        First I served as a Senior Integration Developer on the EVO project for Vodaphone/Vodacom integrations.
+        This was followed up by being a Senior Integration Developer for the Vodacom Business OSS/BSS Fusion integration team. 
 
-        Primary technology Oracle Fusion Middleware using OSB and Oracle SOA suite and some J2EE interfaces.
+        My role was primarily analysing integration requirements, delivering integration solution designs, which
+        I would then implement. The technologies used were primary Oracle Fusion Middleware using Oracle Service Bus (OSB) and 
+        Oracle SOA suite, but occasionaly interfaces where developed using J2EE.
         
         **Technologies used:**
         <div class="tagcloud06">
@@ -271,7 +469,7 @@ experiences:
       details: |   
         Senior Consultant for EOH Project & Portfolio Management (formerly Gallium Professional Services).
 
-        Team lead for the HP PPM technical support team at Absa.
+        I served as the team lead for the HP PPM technical support team at Absa.
 
         Tasks and responsibilities included:
         * The design and implementation of changes to the deployed Absa HP PPM Solution.
@@ -288,7 +486,8 @@ experiences:
         * Assisting with HP QC 9.0 to HP QC 9.1 Upgrade for Test Factory at Vodacom Engineering.
         * Forming part of process re-engineering team for Vodacom Engineering.
         * Assisting with Enterprise Discovery Automated Discovery Agents Configuration on Unix/Linux platforms for Exclusive Books.
-        * Forming part of project team at Absa for the Barclays Navigator project, specializing in interfaces, HP PPM SOA functionality, and report and portlet customization.
+        * Forming part of project team at Absa for the Barclays Navigator project, specializing in interfaces, HP PPM SOA functionality, 
+          and report and portlet customization.
         * Forming part of the technical support team for the Barclays HP PPM implementation.
         * Being the technical team-lead for an upgrade of HP PPM from 7.5 to 9.1.
 
@@ -443,29 +642,29 @@ publications:
         authors: Edgar T. Irons
         conference: "Comm. ACM 4 (1961), 51–55"
 
-skills:
-    title: Skills &amp; Proficiency
+# skills:
+#     title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Kubernetes
-        level: 90%
+#     toolset:
+#       - name: Kubernetes
+#         level: 90%
 
-      - name: Docker-compose
-        level: 90%
+#       - name: Docker-compose
+#         level: 90%
 
-      - name: Docker
-        level: 90%
+#       - name: Docker
+#         level: 90%
 
-      - name: Terraform
-        level: 80%
+#       - name: Terraform
+#         level: 80%
 
-      - name: Ansible
-        level: 70%
+#       - name: Ansible
+#         level: 70%
 
-      - name: Chef
-        level: 80%
+#       - name: Chef
+#         level: 80%
 
-      - name: Java
-        level: 80%
+#       - name: Java
+#         level: 80%
 
 footer: >
