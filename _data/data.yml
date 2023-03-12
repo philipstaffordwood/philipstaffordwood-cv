@@ -108,7 +108,7 @@ experiences:
          </ul>
        </div>
    - role: Solution Architect
-     time: May 2022 - October 2022 (overlapping with TJ deployment)
+     time: May 2022 - October 2022 (Overlap)
      company: IdealSolution Software
      details: |
        Solution Architect on a five person team overseeing the delivery,
@@ -158,7 +158,7 @@ experiences:
            <li><a href="#"><span>App Center</span></a></li>         
          </ul>
        </div>
-       <p style="page-break-after: always;">
+
    - role: Solution Architect
      time: June 2021 - April 2022
      company: IdealSolution Software
@@ -213,7 +213,7 @@ experiences:
        </div>
 
    - role: Solution Architect
-     time: January 2022 - February 2022 (overlapping with Lighthouse assignment)
+     time: January 2022 - February 2022 (Overlap)
      company: IdealSolution Software
      details: |
        Formed part of a task team with [Quantum change](https://www.quantumchange.africa/) to assess
@@ -268,7 +268,7 @@ experiences:
            <li><a href="#"><span>Bitbucket</span></a></li>
          </ul>
        </div>
-       <p style="page-break-after: always;">
+
    - role: Principal DevOps Engineer
      time: Sept 2020 - Feb 2021
      company: Dotcom Software Solutions
@@ -357,7 +357,7 @@ experiences:
        </div>
    - role: Part-time SRE Developer
      time: Mar 2020 - Aug 2020
-     company: Flanksource (Overlapping with BVNK duration)
+     company: Flanksource (Overlap)
      details: |
        Part-time SRE Developer developing Golang automation tools to provision, monitor and configure VMWare-hosted Kubernetes clusters.
 
@@ -405,7 +405,7 @@ experiences:
            <li><a href="#"><span>WS02 Enterprise Integrator</span></a></li>
          </ul>
        </div>       
-       <p style="page-break-after: always;">
+
    - role: Principal Integration Developer
      time: Nov 2016 - Jul 2018
      company: BCX
@@ -522,7 +522,7 @@ experiences:
            <li><a href="#"><span>JMS</span></a></li>
          </ul>
        </div>
-       <p style="page-break-after: always;">
+ 
 
    - role: Senior Consultant
      time: Nov 2007 - Sep 2012
