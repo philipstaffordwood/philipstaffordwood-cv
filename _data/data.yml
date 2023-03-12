@@ -188,6 +188,7 @@ experiences:
             <li><a href="#"><span>Bitbucket</span></a></li>
           </ul>
         </div>
+        <p style="page-break-after: always;">
     - role: Solution Architect
       time: January 2022 - February 2022 (overlapping with Lighthouse assignment)
       company: IdealSolution Software
@@ -239,6 +240,7 @@ experiences:
             <li><a href="#"><span>Bitbucket</span></a></li>
           </ul>
         </div>
+        <p style="page-break-after: always;">
     - role: Principal DevOps Engineer
       time: Sept 2020 - Feb 2021 
       company: Dotcom Software Solutions
@@ -396,7 +398,7 @@ experiences:
       time: Oct 2014 - Oct 2016
       company: BCX
       details: |
-        Integration Standard Bank. Technical analysis of legacy PL SQL and JCaps Java code.
+        My role was Integration specialist stationed at Standard Bank. Primarily performing technical analysis of legacy PL SQL and JCaps Java code.
 
         Development of IBM IIB solutions. Scrum master of delivery teams on Foundation programme and Industrialization Project.
         
@@ -507,7 +509,7 @@ experiences:
             <li><a href="#"><span>Cygwin</span></a></li>
           </ul>
         </div>
-        <p style="page-break-after: always;">
+
     - role: Message Architect
       time: Jul 2007 - Oct 2007
       company: Business Connexion
