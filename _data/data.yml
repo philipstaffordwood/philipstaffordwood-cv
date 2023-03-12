@@ -158,6 +158,7 @@ experiences:
            <li><a href="#"><span>App Center</span></a></li>         
          </ul>
        </div>
+       <p style="page-break-after: always;">
    - role: Solution Architect
      time: June 2021 - April 2022
      company: IdealSolution Software
@@ -210,7 +211,7 @@ experiences:
            <li><a href="#"><span>Bitbucket</span></a></li>
          </ul>
        </div>
-       <p style="page-break-after: always;">
+
    - role: Solution Architect
      time: January 2022 - February 2022 (overlapping with Lighthouse assignment)
      company: IdealSolution Software
