@@ -16,13 +16,14 @@ Based on Orbit (with customisations)
 Clone repo:
 
 ```bash
-git@github.com:philipstaffordwood/philipstaffordwood-cv.git
+git clone git@github.com:philipstaffordwood/philipstaffordwood-cv.git
+cd philipstaffordwood-cv
 ```
 
 Run a local Jekyll docker instance:
 
 ```bash
-docker run --rm   --volume="$PWD:/srv/jekyll" -p 4000:4000  -it jekyll/jekyll:$JEKYLL_VERSION   jekyll serve
+docker run --rm   --volume="$PWD:/srv/jekyll" -p 4000:4000  -it jekyll/jekyll:4.2.0   jekyll serve
 ```
 Preview available locally at [`http://localhost:4000/philipstaffordwood-cv/index.html`](http://localhost:4000/philipstaffordwood-cv/index.html)
 
